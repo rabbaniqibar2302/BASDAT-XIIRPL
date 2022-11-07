@@ -1,7 +1,7 @@
 <?php
 //Function itu ada 2 , ada yang mengembalikan nilai dan ada yang tidak 
 // Array yang berisi 3 nilai
-$a = ['merah','kuning','hijau','hijau'];
+$a = ['merah', 'kuning', 'hijau', 'hijau'];
 
 //fungsi dari is_null itu mengembalikan nilai bernilai true or false
 $fungsi_is_null = is_null($a);
