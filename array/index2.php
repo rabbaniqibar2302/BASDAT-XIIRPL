@@ -23,6 +23,11 @@ $list_buah = ['kurma','anggur',$list_buah_lokal ,'kismis'];
 // Explode array berfungsi memecah-belah string lalu diubah ke dalam array
 
 // Expload ada 2 paramater : delimiter(pemisah), string sasaran (sasaran yang akan kita pecah menjadi array)
-
 $siswa = "andi budi dono kasino indro";
-var_dump(explode(" ", $siswa));
+// var_dump(explode(" ", $siswa));
+
+// Impload fungsi kebalikannya expload
+// impload dia 2 paramater : glue (penggabung), array sasaran (sasaran yang akan ita gabung menjadi string)
+
+$siswa_pintar = ['refa','agus','novan'];//array
+$siswa_jago = implode(' ',$siswa_pintar);//string
