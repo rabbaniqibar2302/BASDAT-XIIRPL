@@ -13,6 +13,7 @@ function validasi(array $listinput){
             echo "Rules <strong>{$rules}</strong><br>";
             // Pemeriksaan tiap rules 
             if ($rules === 'required') {
+                // ini mau dirubah
                 $lolos = lolosRequired($request[$input]);
                 // penerapan nilai bool true : false
                 echo $lolos ? "Lolos" : "Tidak Lolos";
