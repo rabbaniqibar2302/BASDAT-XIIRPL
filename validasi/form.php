@@ -10,7 +10,7 @@
             </div>
             <div style="margin-top:10px;">
                 <label>Email</label><br>
-                <input type="email" name="email">
+                <input type="text" name="email">
             </div>
             <div style="margin-top:10px;">
                 <label>Username</label><br>
@@ -18,7 +18,7 @@
             </div>
             <div style="margin-top:10px;">
                 <label>Usia</label><br>
-                <input type="number" name="usia">
+                <input type="text" name="usia">
             </div>
             <div style="margin-top:10px;">
                 <button>Submit</button>
