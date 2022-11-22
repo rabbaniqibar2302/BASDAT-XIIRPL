@@ -17,7 +17,7 @@ function validasi(array $listinput){
                 // penerapan nilai bool true : false
                 echo $lolos ? "Lolos" : "Tidak Lolos";
             }elseif($rules === 'email'){
-                $lolos = lolosEmail($request['input']);
+                $lolos = lolosEmail($request[$input]);
                 echo $lolos ? "Lolos" : "Tidak Lolos";
             }elseif($rules === 'username'){
                 $lolos = lolosUsername($request[$input]);
